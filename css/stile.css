@@ -1,0 +1,103 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #303032;
+    margin: 0;
+}
+
+h1, h2, p, span {
+    margin: 0;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* footer-logo */
+
+.footer-logo {
+    display: flex;
+    flex-basis: 100%;
+    align-items: center;
+    padding-top: 90px;
+    margin-bottom: 121px;
+}
+
+.logo {
+    display: flex;
+    flex-basis: 15%;
+}
+
+a {
+    text-decoration: none;
+    color: #303032;
+}
+
+.menu {
+    display: flex;
+    font-size: 14px;
+    letter-spacing: 0.13em;
+}
+
+.ml62 {
+    margin-left: 62px;
+}
+
+.navigation {
+    display: flex;
+    flex-basis: 53%;
+    justify-content: end;
+}
+
+.ml32 {
+    margin-left: 32px;
+}
+
+/* end footer-logo */
+
+/* footer-menu */
+
+.footer-menu {
+    display: flex;
+}
+
+.menu-left {
+    width: 545px;
+}
+
+.menu-text {
+    font-family: "Playfair Display";
+    font-size: 57px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    margin-bottom: 32px;
+}
+
+.menu-left p {
+    font-size: 20px;
+    margin-bottom: 21px;
+}
+
+.nodiscount {
+    font-size: 20px;
+    margin-right: 22px;
+}
+
+.discount {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.button-menu {
+    background: #303032;
+    padding: 18px 80px;
+    border: none;
+    color: #FFFFFF;
+    letter-spacing: 0.13em;
+    cursor: pointer;
+    margin-top: 34px;
+}
+
+/* end footer-menu */

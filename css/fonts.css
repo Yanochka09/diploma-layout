@@ -1,18 +1,57 @@
+/* Добавила шрифт Open Sans */
 @font-face {
-    font-family:"";
+    font-family:"Open Sans";
     font-style: normal;
     font-weight: 400;
-    src: local("")
-         url() format(woff2), 
-         url() format(woff);
-         
+    src: local("Open Sans")
+         url(/fonts/OpenSansRegular.woff2) format(woff2), 
+         url(/fonts/OpenSansRegular.woff) format(woff);        
 }
 
 @font-face {
-    font-family:"";
+    font-family:"Open Sans";
+    font-style: italic;
+    font-weight: 400;
+    src: local("Open Sans")
+         url(/fonts/OpenSansItalic.woff2) format(woff2), 
+         url(/fonts/OpenSansItalic.woff) format(woff);        
+}
+
+@font-face {
+    font-family:"Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    src: local("Open Sans")
+        url(/fonts/opensanssemibold.woff2) format(woff2),
+        url(/fonts/opensanssemibold.woff) format(woff);
+}
+
+/* Добавила шрифт Playfair Display */
+@font-face {
+    font-family:"Playfair Display";
     font-style: normal;
     font-weight: 700;
-    src: local("")
-        url() format(woff2),
-        url() format(woff);
+    src: local("Playfair Display")
+        url(/fonts/PlayfairDisplayBold.woff2) format(woff2),
+        url(/fonts/PlayfairDisplayBold.woff) format(woff);
+}
+
+/* Добавила шрифт Roboto */
+@font-face {
+    font-family:"Roboto";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Roboto")
+         url(/fonts/RobotoRegular.woff2) format(woff2), 
+         url(/fonts/RobotoRegular.woff) format(woff);        
+}
+
+/* Добавила шрифт Avenir Next */
+
+@font-face {
+    font-family:"Avenir Next";
+    font-style: normal;
+    font-weight: 600;
+    src: local("Avenir Next")
+        url(/fonts/AvenirNextCyrDemi.woff) format(woff);
 }
