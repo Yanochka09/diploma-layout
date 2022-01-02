@@ -15,6 +15,10 @@ h1, h2, p, span {
     margin: 0 auto;
 }
 
+.footer{
+    position: relative;
+}
+
 /* footer-logo */
 
 .footer-logo {
@@ -59,7 +63,14 @@ a {
 
 /* footer-menu */
 
-.footer-menu {
+.menu-slid {
+    display: flex;
+    /* position: absolute;
+    top: 0;
+    z-index: -1; */
+}
+
+.menu-slid_slick .slick-slide {
     display: flex;
 }
 
@@ -98,6 +109,17 @@ a {
     letter-spacing: 0.13em;
     cursor: pointer;
     margin-top: 34px;
+}
+
+.menu-right {
+    width: 532px;
+}
+
+/*  */
+
+.slick-initialized .slick-slide {
+    display: flex;
+    align-items:center;
 }
 
 /* end footer-menu */
