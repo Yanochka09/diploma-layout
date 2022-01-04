@@ -4,6 +4,7 @@ body {
     font-weight: 400;
     color: #303032;
     margin: 0;
+    background-color: aquamarine;
 }
 
 h1, h2, p, span {
@@ -115,12 +116,19 @@ a {
     width: 532px;
 }
 
-/*  */
+/*menu-slick-slide  */
 
 .menu-slick-slide1 .slick-slide {
     display: flex;
     align-items:center;
 }
+
+.menu-slick-slide1 .slick-dots li button:before{
+    content: 01;
+}
+
+/*end menu-slick-slide  */
+
 /* end footer-menu */
 
 /* section */
@@ -232,7 +240,9 @@ a {
     font-size: 16px;
     width: 653px;
     margin-top: 20px;
+    margin-bottom: 25px;
 }
+/*comment-slick-slide2*/
 
 .comment-slick-slide2 .slick-slide{
     display: flex;
@@ -240,3 +250,40 @@ a {
     align-items: center;
 }
 
+.comment-slick-slide2 .slick-dots li button{
+    border-radius: 50%;
+    outline: none;
+    height: 8px;
+    width: 8px;
+    border: 1px solid #B3B3B3;
+    box-sizing: border-box;
+}
+
+.comment-slick-slide2 .slick-dots li button:before{
+    font-size: 0;
+}
+
+.comment-slick-slide2 .slick-dots li[class="slick-active"] button{
+    background: #B3B3B3;
+}
+
+.comment-slick-slide2 .slick-prev:before{
+    color: #B3B3B3;
+    border-radius: 50%;
+    border: none;
+    padding: 11px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.comment-slick-slide2 .slick-next:before{
+    color: #B3B3B3;
+    border-radius: 50%;
+    border: none;
+    padding: 11px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+/*end comment-slick-slide2*/
+
+/* section-comment */
