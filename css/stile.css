@@ -7,6 +7,10 @@ body {
     background-color: aquamarine;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 h1, h2, p, span {
     margin: 0;
 }
@@ -16,13 +20,13 @@ h1, h2, p, span {
     margin: 0 auto;
 }
 
-.footer{
+.header{
     position: relative;
 }
 
-/* footer-logo */
+/* header-logo */
 
-.footer-logo {
+.header-logo {
     display: flex;
     flex-basis: 100%;
     align-items: center;
@@ -62,9 +66,9 @@ a {
     margin-left: 32px;
 }
 
-/* end footer-logo */
+/* end header-logo */
 
-/* footer-menu */
+/* header-menu */
 
 .menu-slick-slide1 {
     display: flex;
@@ -80,7 +84,7 @@ a {
 }
 
 .menu-text {
-    font-family: "Playfair Display";
+    font-family: "Playfair Display", sans-serif;
     font-size: 57px;
     font-weight: 700;
     letter-spacing: 0.05em;
@@ -139,7 +143,7 @@ a {
     content: '01';
     width: 23px;
     height: 29px;
-    font-family:"Playfair Display";
+    font-family:"Playfair Display", sans-serif;
     font-size: 40px;
     letter-spacing: 0.05em;
 }
@@ -148,7 +152,7 @@ a {
     content: '02';
     width: 23px;
     height: 29px;
-    font-family:"Playfair Display";
+    font-family:"Playfair Display", sans-serif;
     font-size: 40px;
     letter-spacing: 0.05em;
 }
@@ -158,7 +162,7 @@ a {
     content: '03';
     width: 23px;
     height: 29px;
-    font-family:"Playfair Display";
+    font-family:"Playfair Display", sans-serif;
     font-size: 40px;
     letter-spacing: 0.05em;
 }
@@ -167,7 +171,7 @@ a {
     content: '04';
     width: 23px;
     height: 29px;
-    font-family:"Playfair Display";
+    font-family:"Playfair Display", sans-serif;
     font-size: 40px;
     letter-spacing: 0.05em;
 }
@@ -186,7 +190,7 @@ a {
 
 /*end menu-slick-slide  */
 
-/* end footer-menu */
+/* end header-menu */
 
 /* section */
 
@@ -240,7 +244,7 @@ a {
 }
 
 .new-left_text{
-    font-family: "Playfair Display";
+    font-family: "Playfair Display", sans-serif;
     font-weight: 700;
     font-size: 28px;
     letter-spacing: 0.05em;
@@ -269,6 +273,10 @@ a {
 
 /* section-comment */
 
+.section-comment{
+    margin-bottom: 98px;
+}
+
 .comment-slick-slide2{
     display: flex;
     justify-content: center;
@@ -286,13 +294,13 @@ a {
 }
 
 .feedback-title{
-    font-family: "Avenir Next";
+    font-family: "Avenir Next", sans-serif;
     font-size: 18px;
     color: #444348;
 }
 
 .feedback-subtitle{
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
     font-style: italic;
     font-size: 16px;
     width: 653px;
@@ -343,4 +351,154 @@ a {
 }
 /*end comment-slick-slide2*/
 
-/* section-comment */
+/*end section-comment */
+
+/* section-last*/
+
+.last-chance {
+    display: flex;
+    flex-direction: column;
+    padding-top: 73px;
+    margin-bottom: 211px;
+}
+
+.chance-top{
+    position: relative;
+    margin-bottom: 37px;
+}
+
+.menu-last-chance{
+    margin-bottom: 25px;
+}
+
+.chairs {
+    text-decoration-line: underline;
+    color: #000000;
+    font-weight: 600;
+}
+
+.ml48{
+    margin-left: 48px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.chance-bottom{
+    display: flex;
+}
+
+.mr31{
+    margin-right: 31px;
+    width: 209px;
+    padding-top: 27px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+}
+
+.caramel1 {
+    width: 209px;
+    padding-top: 27px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+}
+
+.ml26 {
+    margin-left: 26px;
+}
+
+.ml26 p{
+    margin-bottom: 11px;
+}
+
+.sale{
+    color: #303032;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.no-sale{
+    color: #979798;
+    font-weight: 600;
+    text-decoration-line: line-through;
+}
+
+.chance-bottom_img{
+    display: flex;
+    justify-content: end;
+}
+
+/*end section-last*/
+
+/* footer */
+
+.footer-information{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 31px;
+}
+
+.information-top{
+    display: flex;
+    flex-direction: column;
+}
+
+.information-top a{
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.information{
+    display: flex;
+    margin-top: 31px;
+}
+
+.information-bottom a{
+    font-family: "Avenir Next", sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+}
+
+.ml60{
+    margin-left: 60px;
+}
+
+
+.information-contacts{
+    display: flex;
+    align-items: flex-start;
+}
+
+.mr8{
+    margin-right: 8px;
+}
+
+.ml51{
+    margin-left: 51px;
+}
+
+.information-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 11px;
+}
+
+.vector{
+    width: 1140px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    margin-bottom: 10px;
+}
+
+.footer-text{
+    font-family: "Avenir Nex", sans-serif;
+    font-weight: normal;
+    font-size: 10px;
+    color: black;
+    opacity: 0.2;
+}
+
+/* end footer */
+
