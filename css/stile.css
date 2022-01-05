@@ -4,7 +4,7 @@ body {
     font-weight: 400;
     color: #303032;
     margin: 0;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
 
 * {
@@ -22,6 +22,13 @@ h1, h2, p, span {
 
 .header{
     position: relative;
+}
+
+.menu-slick-slide1::before{
+    content: url(/img/Header/img.png);
+    position: absolute;
+    top: 0;
+    right: -143px;
 }
 
 /* header-logo */
@@ -358,8 +365,17 @@ a {
 .last-chance {
     display: flex;
     flex-direction: column;
+    position: relative;
     padding-top: 73px;
     margin-bottom: 211px;
+}
+
+.last-chance::before{
+    content: url(/img/Section-last/img2.png);
+    position: absolute;
+    top: 25px;
+    left: -176px;
+    z-index: -1;
 }
 
 .chance-top{
