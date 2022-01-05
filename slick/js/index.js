@@ -9,3 +9,12 @@ $('.comment-slick-slide2').slick({
   arrows: true,
   dots: true,
 });
+
+$('.chance-bottom').slick({
+  dots: false,
+  arrows: false,
+  slidesToShow: 5,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+});
