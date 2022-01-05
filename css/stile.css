@@ -27,7 +27,9 @@ h1, h2, p, span {
     flex-basis: 100%;
     align-items: center;
     padding-top: 90px;
-    margin-bottom: 121px;
+    position: absolute;
+    width: 1140px;
+    z-index: 1;
 }
 
 .logo {
@@ -66,9 +68,6 @@ a {
 
 .menu-slick-slide1 {
     display: flex;
-    /* position: absolute;
-    top: 0;
-    z-index: -1; */
 }
 
 .menu-slid_slick .slick-slide {
@@ -77,6 +76,7 @@ a {
 
 .menu-left {
     width: 545px;
+    margin-left: 1px;
 }
 
 .menu-text {
@@ -120,7 +120,68 @@ a {
 
 .menu-slick-slide1 .slick-slide {
     display: flex;
+    justify-content: start;
     align-items:center;
+}
+
+.menu-slick-slide1 .slick-dots{
+    display: flex;
+    flex-direction: column;
+    right: 0;
+    bottom: 270px;
+    width: auto;
+    color: rgba(0, 0, 0, 0.3);
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#slick-slide-control00::before{
+    content: '01';
+    width: 23px;
+    height: 29px;
+    font-family:"Playfair Display";
+    font-size: 40px;
+    letter-spacing: 0.05em;
+}
+
+#slick-slide-control01::before{
+    content: '02';
+    width: 23px;
+    height: 29px;
+    font-family:"Playfair Display";
+    font-size: 40px;
+    letter-spacing: 0.05em;
+}
+
+
+#slick-slide-control02::before{
+    content: '03';
+    width: 23px;
+    height: 29px;
+    font-family:"Playfair Display";
+    font-size: 40px;
+    letter-spacing: 0.05em;
+}
+
+#slick-slide-control03::before{
+    content: '04';
+    width: 23px;
+    height: 29px;
+    font-family:"Playfair Display";
+    font-size: 40px;
+    letter-spacing: 0.05em;
+}
+
+.menu-slick-slide1 .slick-dots li{
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.menu-slick-slide1 .slick-dots li.slick-active button:before{
+    width: 41px;
+    height: 58px;
+    border-right: 2px solid #000000;
+    padding-right: 21px;   
 }
 
 /*end menu-slick-slide  */
