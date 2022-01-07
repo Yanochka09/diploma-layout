@@ -22,7 +22,50 @@ h1, h2, p, span {
 
 .header{
     position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 50;
 }
+
+/*  */
+
+.header::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.header-burger{
+    display: none;
+}
+
+.burgermenu{
+    display: flex;
+}
+
+.header-list{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    letter-spacing: 0,13em;
+}
+
+.ml62 {
+    margin-left: 62px;
+}
+
+.header-list li{
+    list-style: none;
+    color: #FFFFFF;
+}
+
+
+/*  */
 
 .menu-slick-slide1::before{
     content: url(/img/Header/img.png);
@@ -39,7 +82,7 @@ h1, h2, p, span {
     padding-top: 90px;
     position: absolute;
     width: 1140px;
-    z-index: 1;
+    z-index: 150;
 }
 
 .logo {
@@ -52,15 +95,6 @@ a {
     color: #303032;
 }
 
-.menu {
-    display: flex;
-    font-size: 14px;
-    letter-spacing: 0.13em;
-}
-
-.ml62 {
-    margin-left: 62px;
-}
 
 .navigation {
     display: flex;
