@@ -366,12 +366,11 @@
     .chance-bottom .slick-dots li button{
         border-radius: 50%;
         outline: none;
-        height: 8px;
-        width: 8px;
-        border: 2px solid #79797c;
+        height: 2px;
+        width: 2px;
+        border: 1px solid #79797c;
         background:#79797c;
         box-sizing: border-box;
-        margin-top: 30px;
     }
 
     .chance-bottom .slick-dots li button:before{
@@ -380,8 +379,9 @@
 
     .chance-bottom .slick-dots li[class="slick-active"] button{
         background: #000000;
-        border: 2px solid #000000;
+        border: 1px solid #000000;
     }
+
 
     .information-top{
         flex-direction: column;
