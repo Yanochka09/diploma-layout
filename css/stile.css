@@ -35,7 +35,6 @@ h1, h2, p, span {
 
 .header-logo {
     display: flex;
-    flex-basis: 100%;
     align-items: center;
     padding-top: 90px;
     position: absolute;
@@ -77,10 +76,6 @@ a {
 
 /* header-menu */
 
-.menu-slick-slide1 {
-    display: flex;
-}
-
 .menu-slid_slick .slick-slide {
     display: flex;
 }
@@ -121,10 +116,6 @@ a {
     letter-spacing: 0.13em;
     cursor: pointer;
     margin-top: 34px;
-}
-
-.menu-right {
-    width: 532px;
 }
 
 /*menu-slick-slide  */
