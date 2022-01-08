@@ -174,7 +174,7 @@ a {
 #slick-slide-control00::before{
     content: '01';
     width: 23px;
-    height: 29px;
+    height: 35px;
     font-family:"Playfair Display", sans-serif;
     font-size: 40px;
     letter-spacing: 0.05em;
@@ -183,7 +183,7 @@ a {
 #slick-slide-control01::before{
     content: '02';
     width: 23px;
-    height: 29px;
+    height: 35px;
     font-family:"Playfair Display", sans-serif;
     font-size: 40px;
     letter-spacing: 0.05em;
@@ -193,7 +193,7 @@ a {
 #slick-slide-control02::before{
     content: '03';
     width: 23px;
-    height: 29px;
+    height: 35px;
     font-family:"Playfair Display", sans-serif;
     font-size: 40px;
     letter-spacing: 0.05em;
@@ -202,7 +202,7 @@ a {
 #slick-slide-control03::before{
     content: '04';
     width: 23px;
-    height: 29px;
+    height: 35px;
     font-family:"Playfair Display", sans-serif;
     font-size: 40px;
     letter-spacing: 0.05em;
@@ -214,10 +214,8 @@ a {
 }
 
 .menu-slick-slide1 .slick-dots li.slick-active button:before{
-    width: 41px;
-    height: 58px;
-    border-right: 2px solid #000000;
-    padding-right: 21px;   
+    border-right: 3px solid #000000;
+    padding-right: 31px; 
 }
 
 /*end menu-slick-slide  */
@@ -428,9 +426,19 @@ a {
     display: flex;
 }
 
+.button-autoplay{
+    background: #303032;
+    padding: 18px 66px;
+    border: none;
+    color: #FFFFFF;
+    letter-spacing: 0.13em;
+    cursor: pointer;
+}
+
 .mr31{
     margin-right: 31px;
     width: 209px;
+    height: 400px;
     padding-top: 27px;
     background: #FFFFFF;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
@@ -438,9 +446,15 @@ a {
 
 .caramel1 {
     width: 209px;
+    height: 400px;
     padding-top: 27px;
     background: #FFFFFF;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+}
+
+.chance-bottom_img{
+    width: 167px;
+    height: 246px;
 }
 
 .ml26 {
