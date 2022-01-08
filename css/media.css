@@ -448,6 +448,10 @@
         font-size: 28px;
     }
 
+    .menu-slick-slide1 .slick-dots{
+        right: 115px;
+    }
+
     .section {
         padding-top: 80px;
     }
